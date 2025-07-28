@@ -1812,8 +1812,10 @@ async def healthcheck_with_db():
     Session.execute(text("SELECT 1;")).all()
     return {"status": True}
 
-
+# DOONE #########
+STATIC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "static"))
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+##########
 
 
 @app.get("/cache/{path:path}")
