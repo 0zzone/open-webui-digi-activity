@@ -30,7 +30,11 @@ WORKDIR /app
 RUN apk add --no-cache git
 
 COPY package.json package-lock.json ./
-RUN npm ci --force
+# RUN npm ci --force
+RUN npm install --legacy-peer-deps 
+
+# Set memory limit to 4GB for all Node.js commands (including vite)
+ENV NODE_OPTIONS=--max-old-space-size=8192
 
 COPY . .
 ENV APP_BUILD_HASH=${BUILD_HASH}
@@ -165,6 +169,9 @@ COPY --chown=$UID:$GID --from=build /app/package.json /app/package.json
 
 # copy backend files
 COPY --chown=$UID:$GID ./backend .
+
+# ✅ copy static files
+COPY --chown=$UID:$GID ./static /app/static
 
 EXPOSE 8080
 
