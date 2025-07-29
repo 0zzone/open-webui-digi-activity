@@ -1,0 +1,15 @@
+name: open-webui
+
+services:
+
+  open-webui:
+    image: matt91320/open-webui-digi-activity:latest
+    container_name: open-webui-digi-activity
+    ports:
+      - 1911:8080
+    restart: unless-stopped
+    volumes:
+      - ./open-webui-volume:/app/backend/data
+
+volumes:
+  open-webui: {}
