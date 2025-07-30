@@ -2,6 +2,8 @@
 	import { getContext } from 'svelte';
 	import { toast } from 'svelte-sonner';
 
+	import { FEEDBACK_URL } from '$lib/constants'
+
 	import {
 		WEBUI_NAME,
 		banners,
@@ -26,6 +28,7 @@
 	import UserMenu from '$lib/components/layout/Sidebar/UserMenu.svelte';
 	import MenuLines from '../icons/MenuLines.svelte';
 	import AdjustmentsHorizontal from '../icons/AdjustmentsHorizontal.svelte';
+	import Suggestions from "../icons/ChatBubble.svelte"
 
 	import PencilSquare from '../icons/PencilSquare.svelte';
 	import Banner from '../common/Banner.svelte';
@@ -150,6 +153,15 @@
 							</button>
 						</Menu>
 					{/if}
+
+					<Tooltip content={$i18n.t('issue')}>
+						<button
+							class="text-white mr-5"
+							aria-label="Je rencontre un problème"
+						>
+							<a href={FEEDBACK_URL} target="_blank">🚨</a>
+						</button>
+					</Tooltip>
 
 					<Tooltip content={$i18n.t('Controls')}>
 						<button

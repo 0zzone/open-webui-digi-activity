@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "Kontrolatu nola banatzen den mezuaren testua TTS eskaeretarako. 'Puntuazioa'-k esaldietan banatzen du, 'paragrafoak'-k paragrafoetan, eta 'bat ere ez'-ek mezua kate bakar gisa mantentzen du.",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "",
 	"Controls": "Kontrolak",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "",
 	"Copied": "Kopiatuta",
 	"Copied link to clipboard": "",

@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "Rialú conas a roinntear téacs teachtaireachta d'iarratais TTS. Roinneann 'poncaíocht' ina abairtí, scoilteann 'míreanna' i míreanna, agus coinníonn 'aon' an teachtaireacht mar shreang amháin.",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "Rialú a dhéanamh ar athrá seichimh chomharthaí sa téacs ginte. Cuirfidh luach níos airde (m.sh., 1.5) pionós níos láidre ar athrá, agus beidh luach níos ísle (m.sh., 1.1) níos boige. Ag 1, tá sé díchumasaithe. (Réamhshocrú: 1.1)",
 	"Controls": "Rialuithe",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "Rialaíonn sé an chothromaíocht idir comhleanúnachas agus éagsúlacht an aschuir. Beidh téacs níos dírithe agus níos soiléire mar thoradh ar luach níos ísle.",
 	"Copied": "Cóipeáladh",
 	"Copied link to clipboard": "Cóipeáladh nasc chuig an ghearrthaisce",

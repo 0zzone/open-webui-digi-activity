@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "控制消息文本如何拆分以用于 TTS 请求。“Punctuation” 拆分为句子，“paragraphs” 拆分为段落，“none” 将消息保留为单个字符串。",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "控制生成文本中标记序列的重复度。较高的值（例如1.5）将更强烈地惩罚重复，而较低的值（例如1.1）则更为宽松。当值为1时，此功能将被禁用。",
 	"Controls": "对话高级设置",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "控制输出文本中连贯性和多样性之间的平衡。较低的值将产生更加专注和连贯的文本。",
 	"Copied": "已复制",
 	"Copied link to clipboard": "已复制链接到剪贴板",

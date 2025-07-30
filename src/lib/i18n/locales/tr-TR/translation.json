@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "Mesaj metninin TTS istekleri için nasıl bölüneceğini kontrol edin. 'Noktalama' cümlelere, 'paragraflar' paragraflara böler ve 'hiçbiri' mesajı tek bir dize olarak tutar.",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "",
 	"Controls": "Kontroller",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "",
 	"Copied": "Kopyalandı",
 	"Copied link to clipboard": "",

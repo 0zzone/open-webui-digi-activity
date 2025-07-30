@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "Керування розбиттям тексту повідомлення для TTS-запитів. 'Punctuation' розбиває на речення, 'paragraphs' розбиває на абзаци, а 'none' залишає повідомлення як один рядок.",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "Контролює повторення послідовностей токенів у згенерованому тексті. Вищий показник (напр., 1.5) сильніше штрафує за повторення, тоді як нижчий показник (напр., 1.1) буде більш м'яким. При значенні 1 ця опція вимкнена.",
 	"Controls": "Керування",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "Контролює баланс між узгодженістю та різноманітністю результату. Нижчий показник призведе до більш зосередженого та узгодженого тексту.",
 	"Copied": "Скопійовано",
 	"Copied link to clipboard": "",

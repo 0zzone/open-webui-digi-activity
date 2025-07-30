@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "TTS རེ་ཞུའི་ཆེད་དུ་འཕྲིན་ཡིག་གི་ཡིག་རྐྱང་ཇི་ལྟར་བགོ་དགོས་ཚོད་འཛིན་བྱེད་པ། 'ཚེག་ཤད་' ཀྱིས་རረབ་ལུ་བགོ། 'ཚན་པ་' ཀྱིས་ཚན་པར་བགོ། 'མེད་པ་' ཡིས་འཕྲིན་ཡིག་དེ་ཡིག་ཕྲེང་གཅིག་ཏུ་ཉར་ཚགས་བྱེད་པ།",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "བཟོས་པའི་ཡིག་རྐྱང་ནང་གི་ཊོཀ་ཀེན་གྱི་རིམ་པའི་བསྐྱར་ཟློས་ཚོད་འཛིན་བྱེད་པ། རིན་ཐང་མཐོ་བ་ (དཔེར་ན། 1.5) ཡིས་བསྐྱར་ཟློས་ལ་ཆད་པ་དྲག་པོ་གཏོང་ངེས། དེ་བཞིན་དུ་རིན་ཐང་དམའ་བ་ (དཔེར་ན། 1.1) ཡིས་གུ་ཡངས་ཆེ་བ་ཡོང་ངེས། 1 ལ་སླེབས་དུས། དེ་ནུས་མེད་བཏང་ཡོད།",
 	"Controls": "ཚོད་འཛིན།",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "ཐོན་འབྲས་ཀྱི་འབྲེལ་ཆགས་རང་བཞིན་དང་སྣ་ཚོགས་རང་བཞིན་བར་གྱི་དོ་མཉམ་ཚོད་འཛིན་བྱེད་པ། རིན་ཐང་དམའ་བས་ཡིག་རྐྱང་གི་དམིགས་ཚད་དང་འབྲེལ་ཆགས་རང་བཞིན་སྔར་ལས་ལྷག་པར་བྱེད་ངེས།",
 	"Copied": "འདྲ་བཤུས་བྱས་པ།",
 	"Copied link to clipboard": "",

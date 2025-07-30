@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "Controlar com es divideix el text del missatge per a les sol·licituds TTS. 'Puntuació' divideix en frases, 'paràgrafs' divideix en paràgrafs i 'cap' manté el missatge com una cadena única.",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "Controlar la repetició de seqüències de tokens en el text generat. Un valor més alt (p. ex., 1,5) penalitzarà les repeticions amb més força, mentre que un valor més baix (p. ex., 1,1) serà més indulgent. A l'1, està desactivat.",
 	"Controls": "Controls",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "Controla l'equilibri entre la coherència i la diversitat de la sortida. Un valor més baix donarà lloc a un text més enfocat i coherent.",
 	"Copied": "Copiat",
 	"Copied link to clipboard": "Enllaç copiat al portaretalls",

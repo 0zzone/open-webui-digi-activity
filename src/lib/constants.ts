@@ -1,6 +1,9 @@
 import { browser, dev } from '$app/environment';
 // import { version } from '../../package.json';
 
+// Feedback URL - for Digi Activity useCase
+export const FEEDBACK_URL = "https://www.digi-activity.com"
+
 export const APP_NAME = 'Open WebUI';
 
 export const WEBUI_HOSTNAME = browser ? (dev ? `${location.hostname}:8080` : ``) : '';

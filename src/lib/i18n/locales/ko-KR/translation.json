@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "TTS 요청에 메시지가 어떻게 나눠지는지 제어하십시오. 'Punctuation'는 문장으로 나누고, 'paragraphs'은 문단으로 나누고, '없음'은 메세지를 하나의 문자열로 인식합니다.",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "생성된 텍스트에서 토큰 시퀀스의 반복을 제어합니다. 높은 값(예: 1.5)은 반복에 더 강한 페널티를 부과하고, 낮은 값(예: 1.1)은 더 관대합니다. 1일 경우 비활성화됩니다.",
 	"Controls": "제어",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "출력의 일관성과 다양성 간의 균형을 제어합니다. 낮은 값은 더 집중되고 일관성 있는 텍스트를 생성합니다.",
 	"Copied": "복사됨",
 	"Copied link to clipboard": "클립보드에 링크가 복사되었습니다",

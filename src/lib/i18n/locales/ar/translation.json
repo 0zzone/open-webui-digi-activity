@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "تحكم في كيفية تقسيم نص الرسالة لطلبات تحويل النص إلى كلام. 'علامات الترقيم' تقسم إلى جمل، 'الفقرات' تقسم إلى فقرات، و'لا شيء' يحتفظ بالرسالة كسلسلة واحدة.",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "تحكم في تكرار تسلسلات الرموز في النص المولد. قيمة أعلى (مثال: 1.5) ستعاقب التكرارات بشدة أكبر، بينما قيمة أقل (مثال: 1.1) ستكون أكثر تسامحاً. عند القيمة 1، يتم تعطيله.",
 	"Controls": "الضوابط",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "يتحكم في التوازن بين الترابط والتنوع في الناتج. قيمة أقل ستؤدي إلى نص أكثر تركيزاً وترابطاً.",
 	"Copied": "تم النسخ",
 	"Copied link to clipboard": "",

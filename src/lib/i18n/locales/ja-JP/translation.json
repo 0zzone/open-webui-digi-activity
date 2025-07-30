@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "TTSリクエストのメッセージテキストの分割方法を制御します。'句読点'は文に分割し、'段落'は段落に分割し、'なし'はメッセージを単一の文字列として保持します。",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "生成されたテキストのトークンシーケンスの繰り返しを制御します。値が高いほど（例：1.5）繰り返しをより強くペナルティを課し、値が低いほど（例：1.1）より寛容になります。値が1の場合、無効になります。",
 	"Controls": "コントロール",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "出力のコヒーレンスとdiversityのバランスを制御します。値が低いほど、より焦点が絞られ、一貫性のあるテキストになります。",
 	"Copied": "コピーしました。",
 	"Copied link to clipboard": "",

@@ -650,6 +650,7 @@
 	<title>{$WEBUI_NAME}</title>
 	<link crossorigin="anonymous" rel="icon" href="{WEBUI_BASE_URL}/static/favicon.png" />
 
+
 	<!-- rosepine themes have been disabled as it's not up to date with our latest version. -->
 	<!-- feel free to make a PR to fix if anyone wants to see it return -->
 	<!-- <link rel="stylesheet" type="text/css" href="/themes/rosepine.css" />
@@ -659,10 +660,12 @@
 {#if loaded}
 	{#if $isApp}
 		<div class="flex flex-row h-screen">
+
 			<AppSidebar />
 
 			<div class="w-full flex-1 max-w-[calc(100%-4.5rem)]">
 				<slot />
+				
 			</div>
 		</div>
 	{:else}

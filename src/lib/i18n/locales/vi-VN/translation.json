@@ -270,6 +270,7 @@
 	"Control how message text is split for TTS requests. 'Punctuation' splits into sentences, 'paragraphs' splits into paragraphs, and 'none' keeps the message as a single string.": "Kiểm soát cách văn bản tin nhắn được chia nhỏ cho các yêu cầu TTS. 'Dấu câu' chia thành câu, 'đoạn văn' chia thành đoạn văn và 'không' giữ tin nhắn thành một chuỗi duy nhất.",
 	"Control the repetition of token sequences in the generated text. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 1.1) will be more lenient. At 1, it is disabled.": "Kiểm soát sự lặp lại của các chuỗi token trong văn bản được tạo. Giá trị cao hơn (ví dụ: 1.5) sẽ phạt sự lặp lại mạnh hơn, trong khi giá trị thấp hơn (ví dụ: 1.1) sẽ khoan dung hơn. Tại 1, nó bị vô hiệu hóa.",
 	"Controls": "Điều khiển",
+	"issue": "Un problème ? Une question ?",
 	"Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.": "Kiểm soát sự cân bằng giữa tính mạch lạc và sự đa dạng của đầu ra. Giá trị thấp hơn sẽ dẫn đến văn bản tập trung và mạch lạc hơn.",
 	"Copied": "Đã sao chép",
 	"Copied link to clipboard": "",
